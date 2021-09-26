@@ -21,4 +21,6 @@ http://padmakar.netlify.app
 ## one more fun project 
 https://fakewindows.netlify.app/
 
+(do click on windows logoi and then ok button in modal..folder and image icons are working)
+
   
