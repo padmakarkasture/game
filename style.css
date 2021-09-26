@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Chewy', cursive;
+    background: #f4f4f4;
+    font-size: 3;
+    overflow: hidden;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+#body {
+    
+    position: relative;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+* {
+    margin: 0.5rem;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.img img {
+    height: 200px;
+    width: 400px;
+    background: #f4f4f4;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    background: #d53369;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cbad6d, #d53369);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cbad6d, #d53369); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    max-width: 400px;
+  
+    color: white;
+    border-radius: 5px;
+    /* margin-left: 0 auto; */
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
+
+#guess-input {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+    font-size: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#submit {
+    font-size: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0.5rem 1rem;
+    background: orange;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+@media(max-width:400px) {
+    body {
+        overflow: visible;
+    }
+
+    .img img {
+        width: 300px;
+        margin-top: 2rem;
+    }
+}
