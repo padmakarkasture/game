@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Chewy', cursive;
-    background: #f4f4f4;
+    background: url(./img/bg.jpg);
     font-size: 3;
     overflow: hidden;
 }
